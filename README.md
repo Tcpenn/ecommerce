@@ -62,6 +62,8 @@
 
 ## License
 
+    [MIT](./LICENSE.txt)
+
 ## Credits
 
 Starter Code 
