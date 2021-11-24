@@ -21,6 +21,10 @@ Then when all of the required installation is done you'll need to create a filed
 * DB_NAME='ecommerce_db'
 * DB_USER='*your MySql username here*'
 * DB_PW='*your MySql password here*'
+
+note: currently cannot get .env to work, so to get the server to work in the config/connection.js file input your credentials in the format of `('ecommerce_db', 'your_username', 'your_password' {`
+
+To setup the database for testing you must log into mysql with the command `mysql -u root -p` then run `source db/schema.sql` then quit the mysql server with the `quit` command. Then run the code `node seeds`. Now you have a seeded database. then with the code `npm start` the server will run for testing 
 ## Routes 
 
 These routes make use if the core application to preform the CRUD  
